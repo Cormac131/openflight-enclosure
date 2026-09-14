@@ -1,0 +1,21 @@
+# Feet
+
+Pick **solid** or **adjustable**. Both live under `stls/shell/feet/`.
+
+| Variant | STL | Use when |
+| --- | --- | --- |
+| Solid | [`Feet-Solid.stl`](../../stls/shell/feet/Feet-Solid.stl) | Flat desk, simplest print |
+| Adjustable | [`Feet-Adjustable.stl`](../../stls/shell/feet/Feet-Adjustable.stl) | Need to level or change viewing angle |
+
+## Hardware
+
+See [Required hardware](../hardware.md). Adjustable-feet inserts go in the **shell**.
+
+| Variant | Inserts |
+| --- | --- |
+| Solid | None (and no M3 inserts in the shell for feet) |
+| Adjustable | 4× M3 insert in the shell; feet screw into those |
+
+## Print notes
+
+TODO: print solid feet pad-down; call out any pause for heat-set inserts on adjustable feet.
