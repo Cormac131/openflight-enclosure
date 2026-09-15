@@ -107,3 +107,5 @@ Follow [Assembly](assembly.md). Short version:
 3. Connect cables to the Pi.
 4. Screw fronts to the shell: radar, then camera, then screen.
 5. Feet last.
+
+If you like the design, [buy me a coffee](https://buymeacoffee.com/cormacmcgrath).

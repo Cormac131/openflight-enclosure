@@ -121,3 +121,5 @@ Close-up order is radar, then camera, then screen. See [Assembly](assembly.md) f
 ![Radar on shell](drawings/assy-03-radar.png)
 ![Camera on shell](drawings/assy-04-camera.png)
 ![Screen last](drawings/assy-05-screen.png)
+
+If you like the design, [buy me a coffee](https://buymeacoffee.com/cormacmcgrath).

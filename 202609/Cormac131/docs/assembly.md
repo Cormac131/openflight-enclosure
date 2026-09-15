@@ -87,3 +87,5 @@ Fit [feet](parts/feet.md) last. Adjustable feet screw into the 4 M3 inserts in t
 - Display is square in the bezel.
 - Camera / radar windows are unobstructed.
 - Unit does not rock; adjustable feet take the load, not the shell corners.
+
+If you like the design, [buy me a coffee](https://buymeacoffee.com/cormacmcgrath).

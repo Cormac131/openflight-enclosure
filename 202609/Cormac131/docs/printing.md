@@ -52,3 +52,5 @@ Shell: printed on its back. **Supports required; tree recommended.**
 ## Fit
 
 If holes are tight, note slicer XY compensation or drill sizes on the relevant part page rather than scaling the whole model.
+
+If you like the design, [buy me a coffee](https://buymeacoffee.com/cormacmcgrath).

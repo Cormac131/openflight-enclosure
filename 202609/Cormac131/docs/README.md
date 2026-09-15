@@ -37,3 +37,7 @@ The seven assembly stills and four print-orientation shots live in [`drawings/`]
     camera/      Lower front with camera
     radar/       Lower front with radar
 ```
+
+## Support
+
+If you like the design, [buy me a coffee](https://buymeacoffee.com/cormacmcgrath).
