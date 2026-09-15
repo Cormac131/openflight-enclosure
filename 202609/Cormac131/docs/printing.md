@@ -24,13 +24,19 @@ Fill in after a known-good print. These are placeholders, not validated profiles
 
 ## Orientation
 
-**Fronts (radar, camera, screen):** cosmetic face on the build plate.
+**Fronts (standard radar, camera, screen):** cosmetic face on the build plate.
+
+**Radar no-fill:** on its back. **Tree supports required.** (No-fill means no cover in front of the radars, not a slicer infill setting.)
 
 **Shell:** flat on its back (rear of the enclosure on the bed). Needs supports; **tree supports recommended**.
 
 ![Radar — face to the plate](drawings/print-radar.png)
 
-Radar: face to the plate. **Tree supports required for the no-fill version** (open in front of the radars; this is not a slicer infill setting).
+Standard radar: face to the plate.
+
+![Radar no-fill — on its back](drawings/print-radar-nofill.png)
+
+Radar no-fill: on its back. **Tree supports required.**
 
 ![Screen — face to the plate](drawings/print-screen.png)
 
@@ -46,7 +52,7 @@ Shell: printed on its back. **Supports required; tree recommended.**
 
 ## Per-part exceptions
 
-- **Radar no-fill** — no cover in front of the radars (RF). Tree supports. See [radar](parts/radar.md).
+- **Radar no-fill** — print on its back; tree supports. No cover in front of the radars (RF). See [radar](parts/radar.md).
 - **Insert bosses** — pause is not required; press inserts after printing.
 
 ## Fit

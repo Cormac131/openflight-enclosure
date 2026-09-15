@@ -22,7 +22,7 @@ Each part page lists the STL, when to use it, and hardware.
 
 ## Drawings
 
-The seven assembly stills and four print-orientation shots live in [`drawings/`](drawings/README.md).
+The seven assembly stills and print-orientation shots live in [`drawings/`](drawings/README.md).
 
 ## File layout in this repo
 

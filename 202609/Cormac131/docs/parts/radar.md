@@ -21,8 +21,12 @@ See [Required hardware](../hardware.md). Same inserts on standard and no-fill fr
 
 ## Print notes
 
-Print with the **face on the build plate**. **Tree supports required for the no-fill version** (openings in front of the radars).
-
-![Radar print orientation](../drawings/print-radar.png)
-
 No-fill is **not** a slicer infill setting. It means there is no wall covering the radar faces.
+
+**Standard:** print with the **face on the build plate**.
+
+![Standard radar print orientation](../drawings/print-radar.png)
+
+**No-fill:** print **on its back**. **Tree supports required.**
+
+![No-fill radar print orientation](../drawings/print-radar-nofill.png)
