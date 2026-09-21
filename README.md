@@ -2,27 +2,27 @@
 
 3D-printable enclosure for an OpenFlight monitor. Print a shell, radar front, camera front, screen, and feet, then assemble.
 
-Current release files live under [`202609/Cormac131/`](202609/Cormac131/).
+Print STLs from each part’s `v1/` folder. `experimental/` is for in-progress parts.
 
-![Front render](202609/Cormac131/renders/front.png)
-![Rear render](202609/Cormac131/renders/rear.png)
+![Front render](renders/front.png)
+![Rear render](renders/rear.png)
 
 ## Documentation
 
 | Page | What it covers |
 | --- | --- |
-| [Choosing a variant](202609/Cormac131/docs/choosing-a-variant.md) | Decision tree and print list |
-| [Printing](202609/Cormac131/docs/printing.md) | Orientation, materials, settings |
-| [Required hardware](202609/Cormac131/docs/hardware.md) | Heat-set inserts and screws per part |
-| [Shell and power](202609/Cormac131/docs/parts/shell.md) | DC jack vs USB-C/Ethernet, X12 boards |
-| [Pi adapters](202609/Cormac131/docs/parts/adapters.md) | No-UPS (x1202) and x1209 (x12-a1 shell) |
-| [Feet](202609/Cormac131/docs/parts/feet.md) | Solid vs adjustable |
-| [Screen bezel](202609/Cormac131/docs/parts/screen.md) | Display size options |
-| [Camera front](202609/Cormac131/docs/parts/camera.md) | Camera, sound-detector + retainer; UART / USB OPS |
-| [Radar front](202609/Cormac131/docs/parts/radar.md) | Standard or no-fill (open in front of the radars) |
-| [CAD drawings](202609/Cormac131/docs/drawings/README.md) | Assembly and print-orientation stills |
+| [Choosing a variant](docs/choosing-a-variant.md) | Decision tree and print list |
+| [Printing](docs/printing.md) | Orientation, materials, settings |
+| [Required hardware](docs/hardware.md) | Heat-set inserts and screws per part |
+| [Shell and power](docs/parts/shell.md) | DC jack vs USB-C/Ethernet, X12 boards |
+| [Pi adapters](docs/parts/adapters.md) | No-UPS (x1202) and x1209 (x12-a1 shell) |
+| [Feet](docs/parts/feet.md) | Solid vs adjustable |
+| [Screen bezel](docs/parts/screen.md) | Display size options |
+| [Camera front](docs/parts/camera.md) | Camera, sound-detector + retainer; UART / USB OPS |
+| [Radar front](docs/parts/radar.md) | Standard or no-fill (open in front of the radars) |
+| [CAD drawings](docs/drawings/README.md) | Assembly and print-orientation stills |
 
-CAD source: [`202609/Cormac131/step/Open-Flight-Monitor-3.step`](202609/Cormac131/step/Open-Flight-Monitor-3.step)
+CAD source: [`step/Open-Flight-Monitor-3.step`](step/Open-Flight-Monitor-3.step). Component STEP files: [`reference-models/`](reference-models/).
 
 ## Printer
 
@@ -44,9 +44,9 @@ The Bambu A1 mini (180 × 180 mm) is too small. Prusa MK3S+ / MK4 are 250 × 210
 ## Quick start
 
 1. Choose **power I/O**, **UPS/HAT**, **screen**, **front panel**, and **feet**.
-2. Copy the STL paths from [Choosing a variant](202609/Cormac131/docs/choosing-a-variant.md).
-3. Print using [Printing](202609/Cormac131/docs/printing.md).
-4. Assemble using [Assembly](202609/Cormac131/docs/assembly.md).
+2. Copy the STL paths from [Choosing a variant](docs/choosing-a-variant.md).
+3. Print using [Printing](docs/printing.md).
+4. Assemble using [Assembly](docs/assembly.md).
 
 ## License
 

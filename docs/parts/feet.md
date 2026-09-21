@@ -1,11 +1,11 @@
 # Feet
 
-Pick **solid** or **adjustable**. Both live under `stls/shell/feet/`.
+Pick **solid** or **adjustable**. Both live under `stls/feet/v1/`.
 
 | Variant | STL | Use when |
 | --- | --- | --- |
-| Solid | [`Feet-Solid.stl`](../../stls/shell/feet/Feet-Solid.stl) | Flat desk, simplest print |
-| Adjustable | [`Feet-Adjustable.stl`](../../stls/shell/feet/Feet-Adjustable.stl) | Need to level or change viewing angle |
+| Solid | [`Feet-Solid.stl`](../../stls/feet/v1/Feet-Solid.stl) | Flat desk, simplest print |
+| Adjustable | [`Feet-Adjustable.stl`](../../stls/feet/v1/Feet-Adjustable.stl) | Need to level or change viewing angle |
 
 ## Hardware
 

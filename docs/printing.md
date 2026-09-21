@@ -1,10 +1,10 @@
 # Printing
 
-Minimum print bed: **220 × 220 mm**. See the [project README](../../../README.md#printer) for example printers.
+Minimum print bed: **220 × 220 mm**. See the [project README](../README.md#printer) for example printers.
 
 ## Files
 
-Print only the STLs from your [variant list](choosing-a-variant.md). Do not mix a DC-jack shell with a USB-C/Ethernet board cutout, or a screen bezel that does not match the panel.
+Print only the **`v1/`** STLs from your [variant list](choosing-a-variant.md). Do not print from `experimental/` unless you intend to. Do not mix a DC-jack shell with a USB-C/Ethernet board cutout, or a screen bezel that does not match the panel.
 
 CAD source for checking orientation: [`../step/Open-Flight-Monitor-3.step`](../step/Open-Flight-Monitor-3.step)
 

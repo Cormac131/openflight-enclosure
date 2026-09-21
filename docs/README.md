@@ -27,16 +27,23 @@ The seven assembly stills and print-orientation shots live in [`drawings/`](draw
 ## File layout in this repo
 
 ```
-202609/Cormac131/
-  docs/          This guide
-  step/          CAD source
-  renders/       Marketing / overview images
-  stls/
-    shell/       Rear body + power cutouts + adapters + feet
-    screen/      Display bezels
-    camera/      Lower front with camera (+ sound-detector retainer)
-    radar/       Lower front with radar
+docs/                    This guide
+step/                    CAD source
+renders/                 Marketing / overview images
+stls/
+  <part>/v1/             Release STLs — print these
+  <part>/experimental/   Tests and in-progress parts
+  adapters/
+  camera/
+  feet/
+  radar/
+  screen/
+  shell/v1/dc-jack/
+  shell/v1/usbc-ethernet/
+reference-models/        Component STEP files
 ```
+
+See [`stls/README.md`](../stls/README.md) for the version rule.
 
 ## Support
 

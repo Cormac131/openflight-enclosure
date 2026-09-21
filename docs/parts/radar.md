@@ -8,8 +8,8 @@ Lower housing for OPS and IWR. Print this **and** a [camera front](camera.md). P
 
 | Variant | STL | Use when |
 | --- | --- | --- |
-| Standard | [`Front-Radar.stl`](../../stls/radar/Front-Radar.stl) | Cover in front of the radars |
-| No-fill | [`Front-Radar-No-Fill.stl`](../../stls/radar/Front-Radar-No-Fill.stl) | No cover in front of the radars, so the plastic does not affect RF |
+| Standard | [`Front-Radar.stl`](../../stls/radar/v1/Front-Radar.stl) | Cover in front of the radars |
+| No-fill | [`Front-Radar-No-Fill.stl`](../../stls/radar/v1/Front-Radar-No-Fill.stl) | No cover in front of the radars, so the plastic does not affect RF |
 
 ## Hardware
 

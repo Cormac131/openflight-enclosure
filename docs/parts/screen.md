@@ -4,10 +4,10 @@ Pick **one** bezel that matches the panel. The rest of the enclosure does not ch
 
 | Variant | STL | Typical panel |
 | --- | --- | --- |
-| 800×480 | [`Screen-800x480.stl`](../../stls/screen/Screen-800x480.stl) | TODO: vendor / size (inch) |
-| 1024×600 | [`Screen-1024x600.stl`](../../stls/screen/Screen-1024x600.stl) | TODO |
-| Raspberry Pi Display | [`Screen-RPI-Display.stl`](../../stls/screen/Screen-RPI-Display.stl) | Official 7" DSI (v1) — confirm |
-| Raspberry Pi Display 2 | [`Screen-RPI-Display-2.stl`](../../stls/screen/Screen-RPI-Display-2.stl) | Official Display 2 — confirm |
+| 800×480 | [`Screen-800x480.stl`](../../stls/screen/v1/Screen-800x480.stl) | TODO: vendor / size (inch) |
+| 1024×600 | [`Screen-1024x600.stl`](../../stls/screen/v1/Screen-1024x600.stl) | TODO |
+| Raspberry Pi Display | [`Screen-RPI-Display.stl`](../../stls/screen/v1/Screen-RPI-Display.stl) | Official 7" DSI (v1) — confirm |
+| Raspberry Pi Display 2 | [`Screen-RPI-Display-2.stl`](../../stls/screen/v1/Screen-RPI-Display-2.stl) | Official Display 2 — confirm |
 
 ![Display in the bezel](../drawings/assy-01-screen-mount.png)
 

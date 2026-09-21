@@ -8,16 +8,16 @@ The rear body. Cutouts change with **power I/O** and **HAT**. Pick one file only
 
 | Folder | Use when |
 | --- | --- |
-| `shell/dc-jack/` | Barrel DC input on the HAT |
-| `shell/usbc-ethernet/` | USB-C power and/or Ethernet through the rear |
+| `shell/v1/dc-jack/` | Barrel DC input on the HAT |
+| `shell/v1/usbc-ethernet/` | USB-C power and/or Ethernet through the rear |
 
 ## Board-specific shells
 
 | Board | DC jack STL | USB-C / Ethernet STL |
 | --- | --- | --- |
-| x1209 (uses x12-a1 shell + adapter) | [`stls/shell/dc-jack/Shell-x12-a1.stl`](../../stls/shell/dc-jack/Shell-x12-a1.stl) | [`stls/shell/usbc-ethernet/Shell-x12-a1.stl`](../../stls/shell/usbc-ethernet/Shell-x12-a1.stl) |
-| x1202 (UPS; also use this shell with no UPS) | [`stls/shell/dc-jack/Shell-x1202.stl`](../../stls/shell/dc-jack/Shell-x1202.stl) | [`stls/shell/usbc-ethernet/Shell-x1202.stl`](../../stls/shell/usbc-ethernet/Shell-x1202.stl) |
-| x1206 | [`stls/shell/dc-jack/Shell-x1206.stl`](../../stls/shell/dc-jack/Shell-x1206.stl) | [`stls/shell/usbc-ethernet/Shell-x1206.stl`](../../stls/shell/usbc-ethernet/Shell-x1206.stl) |
+| x1209 (uses x12-a1 shell + adapter) | [`stls/shell/v1/dc-jack/Shell-x12-a1.stl`](../../stls/shell/v1/dc-jack/Shell-x12-a1.stl) | [`stls/shell/v1/usbc-ethernet/Shell-x12-a1.stl`](../../stls/shell/v1/usbc-ethernet/Shell-x12-a1.stl) |
+| x1202 (UPS; also use this shell with no UPS) | [`stls/shell/v1/dc-jack/Shell-x1202.stl`](../../stls/shell/v1/dc-jack/Shell-x1202.stl) | [`stls/shell/v1/usbc-ethernet/Shell-x1202.stl`](../../stls/shell/v1/usbc-ethernet/Shell-x1202.stl) |
+| x1206 | [`stls/shell/v1/dc-jack/Shell-x1206.stl`](../../stls/shell/v1/dc-jack/Shell-x1206.stl) | [`stls/shell/v1/usbc-ethernet/Shell-x1206.stl`](../../stls/shell/v1/usbc-ethernet/Shell-x1206.stl) |
 
 **x12-a1 is not a standalone build.** Print `Shell-x12-a1` only with the [x1209 Pi adapter](adapters.md).
 

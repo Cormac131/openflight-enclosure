@@ -50,7 +50,7 @@ The strip is compatible with **UART and USB OPS** (clearance is in the camera fr
 
 Print `Sound-Detector-Retainer.stl` with the sound-detector front. The retainer screws into the two extra M2 inserts.
 
-### Radar front (all production STLs)
+### Radar front (`stls/radar/v1/` — not experimental)
 
 **12× M3 inserts:**
 
