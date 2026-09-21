@@ -19,7 +19,7 @@ Print STLs from each part’s `v1/` folder. `experimental/` is for in-progress p
 | [Feet](docs/parts/feet.md) | Solid vs adjustable |
 | [Screen bezel](docs/parts/screen.md) | Display size options |
 | [Camera front](docs/parts/camera.md) | Camera, sound-detector + retainer; UART / USB OPS |
-| [Radar front](docs/parts/radar.md) | Standard or no-fill (open in front of the radars) |
+| [Radar front](docs/parts/radar.md) | No-fill (open in front of the radars); filled front is EOL |
 | [CAD drawings](docs/drawings/README.md) | Assembly and print-orientation stills |
 
 CAD source: [`step/Open-Flight-Monitor-3.step`](step/Open-Flight-Monitor-3.step). Component STEP files: [`reference-models/`](reference-models/).

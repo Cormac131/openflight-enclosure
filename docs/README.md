@@ -39,6 +39,8 @@ stls/
   radar/
   screen/
   shell/v1/
+  camera/eol/                Withdrawn camera-only front
+  radar/eol/                 Withdrawn filled radar
   shell/eol/usbc-ethernet/   Withdrawn USB-C rear shells
 reference-models/        Component STEP files
 ```

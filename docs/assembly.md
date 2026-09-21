@@ -11,7 +11,7 @@ Tighten nothing fully until the screen, camera strip, radar front, and shell clo
 - Display, camera, radar (OPS / IWR), and Adafruit modules for your build
 - Fasteners from [Required hardware](hardware.md) — heat-set inserts **before** you stack boards
 - **2.5 mm ball-end hex key** with **at least 90 mm of reach** for the case screws (see [Required hardware](hardware.md#tools))
-- IWR firmware tools, unless you are using a **no-fill** radar front (you can flash that one after it is mounted)
+- IWR firmware tools (current no-fill radar can be flashed after the module is mounted)
 
 ## 1. Inserts
 
@@ -24,7 +24,7 @@ Heat-set inserts before you stack boards. Print and assemble from each part’s 
 | Three floor bays | **M2.5** | Adafruit modules. 2 inserts per bay you populate; skip empty bays. A side-wall pair is only if that bay needs 4 screws. |
 | Perimeter holes around the rim | — | **Through-holes.** No inserts. The ten case screws pass through the shell into inserts in the fronts. |
 
-The camera front takes **2× M2** inserts for the OV9281, plus **2× M2** more if you printed the sound-detector retainer. Other front inserts are listed in [Required hardware](hardware.md).
+The camera front takes **4× M2** inserts (2 OV9281 + 2 sound-detector retainer). Other front inserts are listed in [Required hardware](hardware.md).
 
 ## 2. Mount components to their printed parts
 
@@ -34,7 +34,7 @@ Do this on the bench, not in the closed case.
 | --- | --- |
 | UPS / Pi (and x1202 or x1209 adapter if required) | [Shell](parts/shell.md) |
 | Adafruit modules | Shell (three floor bays; optional extra pair on the side wall) |
-| OPS and IWR | [Radar front](parts/radar.md) — **flash the IWR before you mount it**, unless you printed a no-fill radar front |
+| OPS and IWR | [Radar front](parts/radar.md) — current no-fill front can be flashed after mounting |
 | Camera (Innomaker OV9281) and sound detector | [Camera front](parts/camera.md) — sound board in the pocket, then the printed retainer |
 | Display | [Screen bezel](parts/screen.md) (1024×600 uses the extra 4 inserts) |
 
@@ -61,7 +61,7 @@ With the board stack in the shell and the fronts still off, connect every cable 
 - Display (DSI / HDMI / USB)
 - Camera CSI
 - Radar (OPS / IWR)
-- Sound detector, if fitted
+- Sound detector
 
 You will not have room to mate these after the fronts are on.
 
@@ -87,12 +87,12 @@ Fit [feet](parts/feet.md) last. Adjustable feet screw into the 4 M3 inserts in t
 
 | Radar front | When to flash |
 | --- | --- |
-| Standard (`Front-Radar.stl`) | **Before** mounting the IWR on the radar front |
-| No-fill (`Front-Radar-No-Fill.stl`) | Can be done after mounting; nothing covers the radar faces |
+| No-fill (`radar/v1/Front-Radar-No-Fill.stl`) | After mounting is fine; nothing covers the radar faces |
+| Filled (`radar/eol/Front-Radar.stl`, EOL) | **Before** mounting — the cover blocks access |
 
 ## Checks
 
-- IWR was flashed before it went on a standard (filled) radar front.
+- IWR is flashed (current no-fill front can be done after mounting).
 - Every Pi cable is seated before the fronts go on.
 - Fronts went on radar → camera → screen.
 - Power connector does not stress the HAT.

@@ -47,16 +47,19 @@ The 10 case screws from the shell go into the 4 case-mounting inserts (shared wi
 
 ### Camera front
 
-The strip is compatible with **UART and USB OPS** (clearance is in the camera front, not a second STL). Both variants take **2× M3** for case mounting.
+The current strip is camera + sound detector (`camera/v1/`). Compatible with **UART and USB OPS**. Camera-only is [EOL](../stls/camera/eol/README.md).
 
-| Variant | M3 inserts | M2 inserts |
+| Qty | Item | Role |
 | --- | --- | --- |
-| Camera | 2 — case mounting | 2 — camera module |
-| Camera + sound detector | 2 — case mounting | **4** — 2 camera, 2 retainer |
+| 2 | M3 insert | Case mounting |
+| 2 | M2 insert | OV9281 |
+| 2 | M2 insert | Sound-detector retainer |
 
-Print `Sound-Detector-Retainer.stl` with the sound-detector front. The retainer screws into the two extra M2 inserts.
+Print `Sound-Detector-Retainer.stl` with the camera front. The retainer screws into the two extra M2 inserts.
 
-### Radar front (`stls/radar/v1/` — not experimental)
+### Radar front (`stls/radar/v1/` — no-fill)
+
+The filled front is [EOL](../stls/radar/eol/README.md).
 
 **12× M3 inserts:**
 
@@ -84,23 +87,23 @@ Inserts for adjustable feet go in the **shell**, not in the foot STL.
 
 ## Example carts
 
-**800×480 camera, x1206, solid feet, no Adafruit modules**
+**800×480, x1206, solid feet, no Adafruit modules**
 
 - **4× M2.5** inserts (UPS / Pi)
-- **2× M2** inserts (camera)
+- **4× M2** inserts (2 camera + 2 sound-detector retainer)
 - **6× M3** inserts (4 screen case + 2 camera case)
 - **10× M3×8/10/12** (fronts to shell)
 
-**Same with sound detector and adjustable feet**
+**Same with adjustable feet**
 
-- Add **2× M2** (sound-detector retainer) and **4× M3** (feet in the shell)
+- Add **4× M3** (feet in the shell)
 
 **1024×600 radar**
 
 - Screen: **8× M3** inserts
 - Radar: **12× M3** inserts (4 OPS + 4 IWR + 4 case)
 - Shell: still **4× M2.5** (UPS / Pi), **10× M3** screws, plus feet/Adafruit as above
-- Camera: **2× M2** inserts (OV9281) plus **2× M3** case inserts; add **2× M2** more if using the sound-detector retainer
+- Camera: **4× M2** (2 OV9281 + 2 retainer) plus **2× M3** case inserts
 
 **x1209** — add the x12-a1 shell (not standalone) and **8× M2.5** for the adapter.
 
@@ -111,7 +114,7 @@ Inserts for adjustable feet go in the **shell**, not in the foot STL.
 Follow [Assembly](assembly.md). Short version:
 
 1. Heat-set inserts.
-2. Mount every module to its printed part (flash the IWR **before** it goes on a **standard** radar front).
+2. Mount every module to its printed part (current no-fill radar can be flashed after mounting).
 3. Connect cables to the Pi.
 4. Screw fronts to the shell: radar, then camera, then screen.
 5. Feet last.

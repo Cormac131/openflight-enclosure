@@ -4,7 +4,7 @@ Minimum print bed: **220 × 190 mm**. See the [project README](../README.md#prin
 
 ## Files
 
-Print only the **`v1/`** STLs from your [variant list](choosing-a-variant.md). Do not print from `experimental/` unless you intend to. Old USB-C rear shells live under `shell/eol/` and are withdrawn. Do not use a screen bezel that does not match the panel.
+Print only the **`v1/`** STLs from your [variant list](choosing-a-variant.md). Do not print from `experimental/` or `eol/` unless you intend to. Do not use a screen bezel that does not match the panel.
 
 CAD source for checking orientation: [`../step/Open-Flight-Monitor-3.step`](../step/Open-Flight-Monitor-3.step)
 
@@ -24,19 +24,15 @@ Fill in after a known-good print. These are placeholders, not validated profiles
 
 ## Orientation
 
-**Fronts (standard radar, camera, screen):** cosmetic face on the build plate.
+**Camera and screen:** cosmetic face on the build plate.
 
-**Radar no-fill:** on its back. **Tree supports required.** (No-fill means no cover in front of the radars, not a slicer infill setting.)
+**Radar (current no-fill):** on its back. **Tree supports required.** (No-fill means no cover in front of the radars, not a slicer infill setting.)
 
 **Shell:** flat on its back (rear of the enclosure on the bed). Needs supports; **tree supports recommended**.
 
-![Radar — face to the plate](drawings/print-radar.png)
-
-Standard radar: face to the plate.
-
 ![Radar no-fill — on its back](drawings/print-radar-nofill.png)
 
-Radar no-fill: on its back. **Tree supports required.**
+Current radar (no-fill): on its back. **Tree supports required.** The filled front is EOL (`radar/eol/`).
 
 ![Screen — face to the plate](drawings/print-screen.png)
 
@@ -52,7 +48,7 @@ Shell: printed on its back. **Supports required; tree recommended.**
 
 ## Per-part exceptions
 
-- **Radar no-fill** — print on its back; tree supports. No cover in front of the radars (RF). See [radar](parts/radar.md).
+- **Radar** — print on its back; tree supports. No cover in front of the radars (RF). See [radar](parts/radar.md).
 - **Sound-detector retainer** — print flat. See [camera](parts/camera.md).
 - **Insert bosses** — pause is not required; press inserts after printing.
 

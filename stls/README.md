@@ -13,10 +13,12 @@ Mix versions only on purpose (for example a `v1` shell with an experimental rada
 ```
 stls/
   adapters/v1/     Pi adapters
-  camera/v1/       Camera strip + sound-detector retainer
+  camera/v1/       Camera + sound-detector retainer
+  camera/eol/      Camera-only front — see camera/eol/README.md
   feet/v1/         Solid and adjustable feet
-  radar/v1/        Radar fronts
+  radar/v1/        No-fill radar front
+  radar/eol/       Filled radar front — see radar/eol/README.md
   screen/v1/       Display bezels
   shell/v1/        Rear shells (Ethernet, DC jack, power button)
-  shell/eol/       Withdrawn USB-C rear shells — see shell/eol/README.md
+  shell/eol/       USB-C rear shells — see shell/eol/README.md
 ```

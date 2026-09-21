@@ -12,7 +12,7 @@ Assembly stills and print orientations used in the docs.
 | [`assy-03-radar.png`](assy-03-radar.png) | Radar front on the shell |
 | [`assy-04-camera.png`](assy-04-camera.png) | Camera strip on the shell |
 | [`assy-05-screen.png`](assy-05-screen.png) | Screen last |
-| [`print-radar.png`](print-radar.png) | Print orientation — standard radar, face to plate |
+| [`print-radar.png`](print-radar.png) | Print orientation — filled radar (EOL), face to plate |
 | [`print-radar-nofill.png`](print-radar-nofill.png) | Print orientation — no-fill radar, on its back |
 | [`print-screen.png`](print-screen.png) | Print orientation — screen, face to plate |
 | [`print-camera.png`](print-camera.png) | Print orientation — camera, face to plate |
