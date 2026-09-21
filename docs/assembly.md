@@ -10,6 +10,7 @@ Tighten nothing fully until the screen, camera strip, radar front, and shell clo
 - Raspberry Pi, plus the x1202 UPS if you are using one (otherwise the x1202 Pi adapter)
 - Display, camera, radar (OPS / IWR), and Adafruit modules for your build
 - Fasteners from [Required hardware](hardware.md) — heat-set inserts **before** you stack boards
+- **2.5 mm ball-end hex key** with **at least 90 mm of reach** for the case screws (see [Required hardware](hardware.md#tools))
 - IWR firmware tools, unless you are using a **no-fill** radar front (you can flash that one after it is mounted)
 
 ## 1. Inserts
@@ -66,7 +67,7 @@ You will not have room to mate these after the fronts are on.
 
 ## 4. Fronts onto the shell
 
-Use the **10 M3×8/10/12** screws. Fit in this order:
+Use the **10 M3×8/10/12** screws and a **2.5 mm hex key** with **at least 90 mm of reach**. Fit in this order:
 
 1. **Radar**
 2. **Camera**

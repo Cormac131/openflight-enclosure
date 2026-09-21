@@ -6,7 +6,7 @@ Use this folder as the user guide. The GitHub README is the landing page; everyt
 
 1. [Choose a variant](choosing-a-variant.md) — one option from each module.
 2. [Required hardware](hardware.md) — inserts and screws per piece.
-3. [Print](printing.md) — face-down fronts, shell on its back; **220 × 220 mm** bed minimum.
+3. [Print](printing.md) — face-down fronts, shell on its back; **220 × 190 mm** bed minimum.
 4. [Assemble](assembly.md) — mount modules to each printed part, cables to the Pi, then radar → camera → screen.
 
 ## Parts

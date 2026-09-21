@@ -26,7 +26,7 @@ CAD source: [`step/Open-Flight-Monitor-3.step`](step/Open-Flight-Monitor-3.step)
 
 ## Printer
 
-Minimum bed: **220 × 220 mm**. The shell is the largest part.
+Minimum bed: **220 × 190 mm**. The shell is the largest part.
 
 Printers that meet that (and common larger beds):
 
@@ -37,9 +37,10 @@ Printers that meet that (and common larger beds):
 | Sovol SV06 | 220 × 220 mm |
 | Anycubic Kobra 2 | 220 × 220 mm |
 | Elegoo Neptune 3 / Neptune 4 | 225 × 225 mm |
+| Prusa MK3S+ / MK4 | 250 × 210 mm |
 | Bambu Lab A1, P1S, X1C | 256 × 256 mm |
 
-The Bambu A1 mini (180 × 180 mm) is too small. Prusa MK3S+ / MK4 are 250 × 210 mm — the 210 mm axis is under the minimum.
+The Bambu A1 mini (180 × 180 mm) is too small.
 
 ## Quick start
 

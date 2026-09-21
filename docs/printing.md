@@ -1,6 +1,6 @@
 # Printing
 
-Minimum print bed: **220 × 220 mm**. See the [project README](../README.md#printer) for example printers.
+Minimum print bed: **220 × 190 mm**. See the [project README](../README.md#printer) for example printers.
 
 ## Files
 
@@ -20,7 +20,7 @@ Fill in after a known-good print. These are placeholders, not validated profiles
 | Walls | 3–4 | |
 | Infill | 15–20% | |
 | Supports | Tree where noted below | Shell, camera, and no-fill radar |
-| Bed | **220 × 220 mm** minimum | |
+| Bed | **220 × 190 mm** minimum | |
 
 ## Orientation
 

@@ -40,6 +40,6 @@ Same counts on DC-jack and USB-C/Ethernet shells.
 
 ## Print notes
 
-Print **flat on its back** (rear of the enclosure on the bed). **Supports required; tree recommended.** Minimum bed **220 × 220 mm**.
+Print **flat on its back** (rear of the enclosure on the bed). **Supports required; tree recommended.** Minimum bed **220 × 190 mm**.
 
 ![Shell print orientation](../drawings/print-shell.png)

@@ -13,6 +13,12 @@ Install inserts with a soldering iron, square to the boss, flush with the plasti
 
 Pick M3 length after a dry fit (start with **M3×10**).
 
+## Tools
+
+The M3 case screws sit deep in the shell. A short hex driver will not reach. You need a **2.5 mm ball-end hex key** with **at least 90 mm of reach** on the long arm for case mounting. [This long-arm pair](https://www.amazon.co.uk/dp/B0D4H8CHNR) is one option (~114 mm); any equivalent with ≥90 mm reach is fine.
+
+A soldering iron is also required to heat-set the inserts.
+
 ## Per printed piece
 
 ### Shell
