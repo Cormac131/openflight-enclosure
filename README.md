@@ -14,7 +14,7 @@ Print STLs from each part’s `v1/` folder. `experimental/` is for in-progress p
 | [Choosing a variant](docs/choosing-a-variant.md) | Decision tree and print list |
 | [Printing](docs/printing.md) | Orientation, materials, settings |
 | [Required hardware](docs/hardware.md) | Heat-set inserts and screws per part |
-| [Shell and power](docs/parts/shell.md) | DC jack vs USB-C/Ethernet, X12 boards |
+| [Shell and power](docs/parts/shell.md) | Ethernet, DC jack, and power button; X12 boards |
 | [Pi adapters](docs/parts/adapters.md) | No-UPS (x1202) and x1209 (x12-a1 shell) |
 | [Feet](docs/parts/feet.md) | Solid vs adjustable |
 | [Screen bezel](docs/parts/screen.md) | Display size options |
@@ -44,7 +44,7 @@ The Bambu A1 mini (180 × 180 mm) is too small.
 
 ## Quick start
 
-1. Choose **power I/O**, **UPS/HAT**, **screen**, **front panel**, and **feet**.
+1. Choose **UPS/HAT**, **screen**, **front panel**, and **feet**.
 2. Copy the STL paths from [Choosing a variant](docs/choosing-a-variant.md).
 3. Print using [Printing](docs/printing.md).
 4. Assemble using [Assembly](docs/assembly.md).

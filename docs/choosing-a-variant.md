@@ -2,37 +2,33 @@
 
 The enclosure is modular. You print **one rear shell**, **one screen bezel**, **one radar front**, **one camera front**, **one set of feet**, and an adapter when you skip the UPS or when the board requires it.
 
-All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. Files under `experimental/` are not the release set.
+All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. Files under `experimental/` are not the release set. Current shells have **Ethernet, a DC jack, and a power button**. Old USB-C rear shells are **end of life** (`shell/eol/`) — they do not meet the USB-C specification.
 
 ## Decision tree
 
 ```
-1. Power I/O
-   ├─ Barrel DC jack     →  shell/v1/dc-jack/
-   └─ USB-C + Ethernet   →  shell/v1/usbc-ethernet/
-
-2. Board / UPS (shell filename must match)
+1. Board / UPS (shell filename must match; files in shell/v1/)
    ├─ x1202 UPS          → Shell-x1202
    ├─ no UPS             → still Shell-x1202 + adapters/v1/x1202 Pi Adapater.stl
    ├─ x1206              → Shell-x1206
    └─ x1209              → Shell-x12-a1 + adapters/v1/x1209 PI Adapater.stl
                            (do not use the x12-a1 shell on its own)
 
-3. Screen
+2. Screen
    ├─ 800×480
    ├─ 1024×600
    ├─ Raspberry Pi Display
    └─ Raspberry Pi Display 2
 
-4. Radar front
+3. Radar front
    ├─ Standard (cover in front of the radars)
    └─ No-fill (open in front of the radars; does not block RF)
 
-5. Camera front (same strip for UART or USB OPS)
+4. Camera front (same strip for UART or USB OPS)
    ├─ Camera only
    └─ Camera + sound detector  (+ print Sound-Detector-Retainer.stl)
 
-6. Feet
+5. Feet
    ├─ Solid
    └─ Adjustable
 ```
@@ -41,7 +37,7 @@ All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. F
 
 | Slot | Your pick | STL |
 | --- | --- | --- |
-| Shell | DC jack / USB-C Ethernet + board | `shell/v1/<power>/Shell-<board>.stl` |
+| Shell | Board / UPS | `shell/v1/Shell-<board>.stl` |
 | Adapter | none / no-UPS / x1209 | `adapters/v1/x1202 Pi Adapater.stl` if skipping UPS; `adapters/v1/x1209 PI Adapater.stl` with the x12-a1 shell |
 | Screen | | `screen/v1/Screen-….stl` |
 | Radar | | `radar/v1/Front-Radar….stl` |
@@ -50,14 +46,16 @@ All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. F
 
 ## Compatibility matrix
 
-### Shell × power × board
+### Shell × board
 
-| Board | DC jack | USB-C + Ethernet | Extra adapter |
-| --- | --- | --- | --- |
-| x1202 (UPS) | `shell/v1/dc-jack/Shell-x1202.stl` | `shell/v1/usbc-ethernet/Shell-x1202.stl` | — |
-| no UPS | same x1202 shells | same x1202 shells | `adapters/v1/x1202 Pi Adapater.stl` (recommended) |
-| x1206 | `shell/v1/dc-jack/Shell-x1206.stl` | `shell/v1/usbc-ethernet/Shell-x1206.stl` | — |
-| x1209 | `shell/v1/dc-jack/Shell-x12-a1.stl` | `shell/v1/usbc-ethernet/Shell-x12-a1.stl` | `adapters/v1/x1209 PI Adapater.stl` (required) |
+| Board | Current shell | Extra adapter |
+| --- | --- | --- |
+| x1202 (UPS) | `shell/v1/Shell-x1202.stl` | — |
+| no UPS | same x1202 shell | `adapters/v1/x1202 Pi Adapater.stl` (recommended) |
+| x1206 | `shell/v1/Shell-x1206.stl` | — |
+| x1209 | `shell/v1/Shell-x12-a1.stl` | `adapters/v1/x1209 PI Adapater.stl` (required) |
+
+USB-C / Ethernet STLs (`shell/eol/usbc-ethernet/`) are withdrawn. Do not print them for a new unit.
 
 Do not print `Shell-x12-a1` without the x1209 adapter. That shell is only for x1209.
 
@@ -97,15 +95,15 @@ UART vs USB OPS does not change the camera STL. The strip clears both.
 
 **Typical DC-powered unit**
 
-- `shell/v1/dc-jack/Shell-x1206.stl`
+- `shell/v1/Shell-x1206.stl`
 - `radar/v1/Front-Radar.stl`
 - `camera/v1/Front-Camera.stl`
 - `screen/v1/Screen-800x480.stl`
 - `feet/v1/Feet-Solid.stl`
 
-**USB-C / Ethernet with x1202 UPS, 1024×600, sound detector, adjustable feet**
+**x1202 UPS, 1024×600, sound detector, adjustable feet**
 
-- `shell/v1/usbc-ethernet/Shell-x1202.stl`
+- `shell/v1/Shell-x1202.stl`
 - `radar/v1/Front-Radar.stl`
 - `camera/v1/Front-Camera-Sound-Detector.stl`
 - `camera/v1/Sound-Detector-Retainer.stl`

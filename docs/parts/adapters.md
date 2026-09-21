@@ -7,7 +7,7 @@ The **x1202 shell is the UPS variant**. If you do not want a UPS, keep that shel
 | Board | STL | Print? |
 | --- | --- | --- |
 | x1202 UPS | — | No — the UPS board fills the shell |
-| no UPS | [`stls/adapters/v1/x1202 Pi Adapater.stl`](../../stls/adapters/v1/x1202%20Pi%20Adapater.stl) | Yes — recommended. Use with either x1202 shell |
+| no UPS | [`stls/adapters/v1/x1202 Pi Adapater.stl`](../../stls/adapters/v1/x1202%20Pi%20Adapater.stl) | Yes — recommended. Use with the x1202 shell |
 | x1206 | — | No |
 | x1209 | [`stls/adapters/v1/x1209 PI Adapater.stl`](../../stls/adapters/v1/x1209%20PI%20Adapater.stl) | Yes — required. Pairs with the **x12-a1 shell** (do not use that shell without this adapter) |
 

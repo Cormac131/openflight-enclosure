@@ -1,23 +1,22 @@
 # Shell and power
 
-The rear body. Cutouts change with **power I/O** and **HAT**. Pick one file only.
+The rear body. Pick one board-specific file. Every current `v1` shell has the same rear I/O:
+
+- **Ethernet** through the rear
+- **Barrel DC jack** for power
+- **Power button**
+
+USB-C rear shells are **EOL** (USB-C spec compatibility) — see [`stls/shell/eol/`](../../stls/shell/eol/README.md).
 
 ![Pi and UPS mounted in the shell](../drawings/assy-01-boards.png)
 
-## When to use which power cutout
-
-| Folder | Use when |
-| --- | --- |
-| `shell/v1/dc-jack/` | Barrel DC input on the HAT |
-| `shell/v1/usbc-ethernet/` | USB-C power and/or Ethernet through the rear |
-
 ## Board-specific shells
 
-| Board | DC jack STL | USB-C / Ethernet STL |
-| --- | --- | --- |
-| x1209 (uses x12-a1 shell + adapter) | [`stls/shell/v1/dc-jack/Shell-x12-a1.stl`](../../stls/shell/v1/dc-jack/Shell-x12-a1.stl) | [`stls/shell/v1/usbc-ethernet/Shell-x12-a1.stl`](../../stls/shell/v1/usbc-ethernet/Shell-x12-a1.stl) |
-| x1202 (UPS; also use this shell with no UPS) | [`stls/shell/v1/dc-jack/Shell-x1202.stl`](../../stls/shell/v1/dc-jack/Shell-x1202.stl) | [`stls/shell/v1/usbc-ethernet/Shell-x1202.stl`](../../stls/shell/v1/usbc-ethernet/Shell-x1202.stl) |
-| x1206 | [`stls/shell/v1/dc-jack/Shell-x1206.stl`](../../stls/shell/v1/dc-jack/Shell-x1206.stl) | [`stls/shell/v1/usbc-ethernet/Shell-x1206.stl`](../../stls/shell/v1/usbc-ethernet/Shell-x1206.stl) |
+| Board | STL |
+| --- | --- |
+| x1209 (uses x12-a1 shell + adapter) | [`stls/shell/v1/Shell-x12-a1.stl`](../../stls/shell/v1/Shell-x12-a1.stl) |
+| x1202 (UPS; also use this shell with no UPS) | [`stls/shell/v1/Shell-x1202.stl`](../../stls/shell/v1/Shell-x1202.stl) |
+| x1206 | [`stls/shell/v1/Shell-x1206.stl`](../../stls/shell/v1/Shell-x1206.stl) |
 
 **x12-a1 is not a standalone build.** Print `Shell-x12-a1` only with the [x1209 Pi adapter](adapters.md).
 
@@ -36,7 +35,7 @@ See [Required hardware](../hardware.md).
 | 10 | M3×8 / M3×10 / M3×12 | Mount screen and lower front to the shell |
 | 4 | M3 insert | Adjustable feet only — none if using solid feet |
 
-Same counts on DC-jack and USB-C/Ethernet shells.
+Same counts on every current shell.
 
 ## Print notes
 

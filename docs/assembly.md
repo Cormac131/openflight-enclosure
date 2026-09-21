@@ -57,7 +57,7 @@ Do this on the bench, not in the closed case.
 With the board stack in the shell and the fronts still off, connect every cable that must reach the Pi:
 
 - Power / UPS
-- Ethernet or USB-C (as your shell allows)
+- Power (DC jack) and Ethernet; use the rear power button to switch the unit
 - Display (DSI / HDMI / USB)
 - Camera CSI
 - Radar (OPS / IWR)

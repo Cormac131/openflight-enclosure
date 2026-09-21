@@ -23,7 +23,7 @@ A soldering iron is also required to heat-set the inserts.
 
 ### Shell
 
-Same on every DC-jack and USB-C/Ethernet shell. The x12-a1 shell is only for x1209 (with its adapter).
+Same on every current `v1` shell (Ethernet, DC jack, power button). Old USB-C rear shells are [end of life](../stls/shell/eol/README.md). The x12-a1 shell is only for x1209 (with its adapter).
 
 | Qty | Item | Role |
 | --- | --- | --- |

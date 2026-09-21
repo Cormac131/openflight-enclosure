@@ -38,8 +38,8 @@ stls/
   feet/
   radar/
   screen/
-  shell/v1/dc-jack/
-  shell/v1/usbc-ethernet/
+  shell/v1/
+  shell/eol/usbc-ethernet/   Withdrawn USB-C rear shells
 reference-models/        Component STEP files
 ```
 
